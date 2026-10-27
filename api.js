@@ -1,7 +1,7 @@
 // FoodConnect API Client Helper
 
-const API_BASE = '/api';
-
+const BACKEND_URL = '';   // later: 'https://your-app.onrender.com'
+const API_BASE = BACKEND_URL + '/api';
 const api = {
   getToken() {
     return localStorage.getItem('fc_token');
